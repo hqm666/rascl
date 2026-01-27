@@ -17,3 +17,8 @@ ros2 topic pub --once /joint_trajectory_controller/joint_trajectory   trajectory
   colcon build --packages-select rascl_hardware_interface 
   
   chmod -R 777 rascl_automation_ws2526_group1/
+  
+  pip install roboticstoolbox-python --break-system-packages --ignore-installed filelock
+  apt remove python3-matplotlib
+  pip install "numpy<2.0" --break-system-packages
+  ros2 launch rascl_automation_ws2526_group1 automation_tsk1.launch.py

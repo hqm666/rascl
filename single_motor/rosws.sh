@@ -1,17 +1,25 @@
 #!/usr/bin/bash
-IMAGE_NAME=ros2-irs-pacr
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR"
+
+echo "Working in $SCRIPT_DIR"
+PODMAN=docker #podman
+IMAGE_NAME=ros2-container
 CONTAINER_NAME=${CONTAINER_NAME:-$IMAGE_NAME}
 
 set -e
 
+# give the docker container access rights to launch arviz in a dedicated window
+xhost +local:docker
+
 # Check if the container is already running
-if ${FORCE_NEW:-false} || ! docker ps --format "{{.Names}}" | grep -q "$CONTAINER_NAME"; then
+if ${FORCE_NEW:-false} || ! $PODMAN ps --format "{{.Names}}" | grep -q "$CONTAINER_NAME"; then
   if ${REBUILD:-false}; then
     echo "Rebuilding Container without cache"
-    docker buildx build --network host --no-cache -t $IMAGE_NAME .
-  elif ${SOFT_REBUILD:-false} || ! docker image inspect "$IMAGE_NAME" >/dev/null 2>&1; then
+    $PODMAN build --no-cache -t $IMAGE_NAME .
+  elif ! $PODMAN image exists "$IMAGE_NAME"; then
     echo "Building Container"
-    docker buildx build --network host -t $IMAGE_NAME .
+    $PODMAN build -t $IMAGE_NAME .
   else
     echo "Container build has been skipped since an image already exists."
     echo "If the container has been changed, you may want to rebuild it"
@@ -20,21 +28,13 @@ if ${FORCE_NEW:-false} || ! docker ps --format "{{.Names}}" | grep -q "$CONTAINE
   echo "Starting Container ..."
   mkdir -p .devcontainer/
   touch .devcontainer/.bash_history
-
-  if ! command -v xhost >/dev/null 2>&1; then
-    echo "xhost needs to be installed on the system."
-    exit 1
-  fi
-
-  xhost +local:docker # important for GUI applications
-
+  # Detect WSL and set X11 socket mount accordingly
   if grep -qiE "microsoft|wsl" /proc/version; then
     X11_MOUNT="-v /mnt/wslg/.X11-unix:/tmp/.X11-unix"
   else
     X11_MOUNT="-v /tmp/.X11-unix:/tmp/.X11-unix"
   fi
-
-  docker run -it --rm \
+  ${PODMAN} run -it --rm \
     --name ${CONTAINER_NAME} \
     --privileged \
     --network=host \
@@ -62,7 +62,7 @@ if ${FORCE_NEW:-false} || ! docker ps --format "{{.Names}}" | grep -q "$CONTAINE
 else
   echo "Attaching to running container ..."
   echo "$INFO"
-  docker exec -it ${CONTAINER_NAME} bash
+  ${PODMAN} exec -it ${CONTAINER_NAME} bash
 fi
 
 echo "Good bye!"
