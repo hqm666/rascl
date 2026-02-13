@@ -1,0 +1,11 @@
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In member function ‘[01m[Kvoid Slave::[01;32m[Khandle_command[m[K(const std::string&)[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:108:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  108 |   void handle_command([01;35m[Kconst std::string & cmd[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+/usr/bin/ld: CMakeFiles/slave.dir/src/slave.cpp.o: in function `Slave::motor_comm_init()':
+slave.cpp:(.text._ZN5Slave15motor_comm_initEv[_ZN5Slave15motor_comm_initEv]+0x53): undefined reference to `ecx_init'
+/usr/bin/ld: slave.cpp:(.text._ZN5Slave15motor_comm_initEv[_ZN5Slave15motor_comm_initEv]+0xa9): undefined reference to `ecx_config_init'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/slave.dir/build.make:171: slave] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

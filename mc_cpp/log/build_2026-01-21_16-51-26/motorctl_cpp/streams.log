@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/src/motorctl_cpp -DCMAKE_INSTALL_PREFIX=/root/ws/install/motorctl_cpp
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.134s] -- The CXX compiler identification is GNU 13.3.0
+[0.151s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.402s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.678s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.728s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.888s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.891s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.980s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.998s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.118s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.139s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.256s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.256s] -- Configured cppcheck include dirs: 
+[1.256s] -- Configured cppcheck exclude dirs and/or files: 
+[1.257s] -- Added test 'lint_cmake' to check CMake code style
+[1.258s] -- Added test 'uncrustify' to check C / C++ code style
+[1.258s] -- Configured uncrustify additional arguments: 
+[1.259s] -- Added test 'xmllint' to check XML markup files
+[1.261s] -- Configuring done (1.2s)
+[1.276s] -- Generating done (0.0s)
+[1.281s] -- Build files have been written to: /root/ws/build/motorctl_cpp
+[1.289s] Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/src/motorctl_cpp -DCMAKE_INSTALL_PREFIX=/root/ws/install/motorctl_cpp
+[1.291s] Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6
+[1.347s] [ 50%] [32mBuilding CXX object CMakeFiles/slave.dir/src/slave.cpp.o[0m
+[1.347s] [ 50%] [32mBuilding CXX object CMakeFiles/master.dir/src/master.cpp.o[0m
+[9.180s] [ 75%] [32m[1mLinking CXX executable slave[0m
+[9.463s] [ 75%] Built target slave
+[9.502s] [100%] [32m[1mLinking CXX executable master[0m
+[9.781s] [100%] Built target master
+[9.794s] Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6
+[9.804s] Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/build/motorctl_cpp
+[9.812s] -- Install configuration: ""
+[9.812s] -- Installing: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/master
+[9.816s] -- Set non-toolchain portion of runtime path of "/root/ws/install/motorctl_cpp/lib/motorctl_cpp/master" to ""
+[9.817s] -- Installing: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/slave
+[9.820s] -- Set non-toolchain portion of runtime path of "/root/ws/install/motorctl_cpp/lib/motorctl_cpp/slave" to ""
+[9.820s] -- Installing: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/package_run_dependencies/motorctl_cpp
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/parent_prefix_path/motorctl_cpp
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.sh
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.dsv
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.sh
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.dsv
+[9.821s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.bash
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.sh
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.zsh
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.dsv
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.dsv
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/packages/motorctl_cpp
+[9.822s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig.cmake
+[9.823s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig-version.cmake
+[9.823s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.xml
+[9.825s] Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/build/motorctl_cpp

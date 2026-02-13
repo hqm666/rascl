@@ -1,0 +1,35 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/slave.dir/src/slave.cpp.o[0m
+[ 75%] Built target master
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:36:11:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   36 |   ~SubNode[01;31m[K([m[K) override
+      |           [01;31m[K^[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:75:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ has not been declared
+   75 |   void handle_command([01;31m[Kmsg[m[K->data);
+      |                       [01;31m[K^~~[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:75:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K->[m[K’ token
+   75 |   void handle_command(msg[01;31m[K->[m[Kdata);
+      |                          [01;31m[K^~[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:76:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   76 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In lambda function:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:28:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kint[m[K’
+   28 |         handle_command([01;31m[Kmsg->data[m[K);
+      |                        [01;31m[K~~~~~^~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type {aka std::__cxx11::basic_string<char>}[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:75:23:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid Slave::[01;32m[Khandle_command[m[K(int)[m[K’
+   75 |   void handle_command([01;36m[Kmsg[m[K->data);
+      |                       [01;36m[K^~~[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In constructor ‘[01m[KSlave::[01;32m[KSlave[m[K()[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:32:60:[m[K [01;31m[Kerror: [m[K‘[01m[KSubNode[m[K’ has not been declared
+   32 |     start_timer_ = this->create_wall_timer(5ms, std::bind(&[01;31m[KSubNode[m[K::start_init, this));
+      |                                                            [01;31m[K^~~~~~~[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In member function ‘[01m[Kvoid Slave::[01;32m[Kinit_flow[m[K()[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_pub[m[K’?
+   59 |     [01;31m[Kstatus_pub_[m[K->publish(st);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kstatus_pub[m[K
+gmake[2]: *** [CMakeFiles/slave.dir/build.make:76: CMakeFiles/slave.dir/src/slave.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

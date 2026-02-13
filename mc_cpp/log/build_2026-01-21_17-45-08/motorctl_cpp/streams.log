@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6
+[0.077s] [ 50%] Built target master
+[0.081s] [100%] Built target slave
+[0.094s] Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6
+[0.105s] Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/build/motorctl_cpp
+[0.114s] -- Install configuration: ""
+[0.114s] -- Up-to-date: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/master
+[0.115s] -- Up-to-date: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/slave
+[0.115s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/package_run_dependencies/motorctl_cpp
+[0.115s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/parent_prefix_path/motorctl_cpp
+[0.115s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.sh
+[0.115s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.sh
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.dsv
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.bash
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.sh
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.zsh
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.dsv
+[0.116s] -- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.dsv
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/packages/motorctl_cpp
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig.cmake
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig-version.cmake
+[0.116s] -- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.xml
+[0.118s] Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/build/motorctl_cpp

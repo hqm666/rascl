@@ -1,0 +1,27 @@
+[ 50%] Built target master
+[ 75%] [32mBuilding CXX object CMakeFiles/slave.dir/src/slave.cpp.o[0m
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In member function ‘[01m[Kvoid Slave::[01;32m[Khandle_command[m[K(const std::string&)[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:75:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   75 |   void handle_command([01;35m[Kconst std::string & cmd[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable slave[0m
+[100%] Built target slave
+-- Install configuration: ""
+-- Up-to-date: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/master
+-- Installing: /root/ws/install/motorctl_cpp/lib/motorctl_cpp/slave
+-- Set non-toolchain portion of runtime path of "/root/ws/install/motorctl_cpp/lib/motorctl_cpp/slave" to ""
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/package_run_dependencies/motorctl_cpp
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/parent_prefix_path/motorctl_cpp
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.sh
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/environment/path.dsv
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.bash
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.sh
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.zsh
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/local_setup.dsv
+-- Installing: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.dsv
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/ament_index/resource_index/packages/motorctl_cpp
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig.cmake
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/cmake/motorctl_cppConfig-version.cmake
+-- Up-to-date: /root/ws/install/motorctl_cpp/share/motorctl_cpp/package.xml

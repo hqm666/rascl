@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/slave.dir/src/slave.cpp.o: in function `Slave::motor_comm_init()':
+slave.cpp:(.text._ZN5Slave15motor_comm_initEv[_ZN5Slave15motor_comm_initEv]+0x53): undefined reference to `ecx_init'
+/usr/bin/ld: slave.cpp:(.text._ZN5Slave15motor_comm_initEv[_ZN5Slave15motor_comm_initEv]+0xa9): undefined reference to `ecx_config_init'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/slave.dir/build.make:171: slave] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
