@@ -3,6 +3,8 @@ FROM docker.io/ros:jazzy
 ENV SHELL=/bin/bash
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ROS_DOMAIN_ID=1
+ENV LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
 
 # Install dependencies
 RUN apt-get update && \

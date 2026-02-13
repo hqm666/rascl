@@ -161,3 +161,31 @@ ls
 exit
 chmod -R 777 .
 exit
+rossetup
+ros2 run motorctl_cpp slave
+rossetup
+ros2 run motorctl_cpp slave
+colcon build
+rossetup
+ros2 run motorctl_cpp slave
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+ros2 run motorctl_cpp slave
+exit
+rossetup
+ros2 run motorctl_cpp master 
+colcon build
+rosseup
+rossetup
+ros2 run motorctl_cpp master 
+ldconfig -p | grep soem
+ldconfig -p
+colcon build
+rossetup
+ros2 run motorctl_cpp master 
+exit
+colcon build
+rossetup
+ros2 run motorctl_cpp slave
+colcon build
+ros2 run motorctl_cpp slave
+exit

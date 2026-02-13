@@ -159,6 +159,15 @@ CMakeFiles/slave.dir/src/slave.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator_args.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/local/include/soem/soem.h /usr/local/include/soem/ec_options.h \
+ /usr/local/include/soem/ec_type.h /usr/local/include/soem/osal.h \
+ /usr/local/include/soem/osal_defs.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/soem/nicdrv.h /usr/local/include/soem/ec_base.h \
+ /usr/local/include/soem/ec_main.h /usr/local/include/soem/ec_dc.h \
+ /usr/local/include/soem/ec_coe.h /usr/local/include/soem/ec_foe.h \
+ /usr/local/include/soem/ec_soe.h /usr/local/include/soem/ec_eoe.h \
+ /usr/local/include/soem/ec_config.h /usr/local/include/soem/ec_print.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \

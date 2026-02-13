@@ -9,12 +9,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_library(SOEM_LIB soem REQUIRED)
 
 add_executable(master src/master.cpp)
 ament_target_dependencies(master rclcpp std_msgs)
 
 add_executable(slave src/slave.cpp)
 ament_target_dependencies(slave rclcpp std_msgs)
+target_link_libraries(slave ${SOEM_LIB})
 
 install(TARGETS
   master

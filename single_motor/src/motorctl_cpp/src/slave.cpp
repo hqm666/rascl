@@ -4,6 +4,7 @@
 #include <mutex>
 #include <string>
 #include <thread>
+#include <soem/soem.h>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
@@ -23,6 +24,10 @@ public:
         if (!ready_.load()) {
             RCLCPP_WARN(this->get_logger(), "Command received but device not ready. Ignored: '%s'",
                         msg->data.c_str());
+            std_msgs::msg::String st;
+            st.data = "device not ready.";
+            status_pub->publish(st);
+
             return;
         }
         handle_command(msg->data);
@@ -51,7 +56,8 @@ private:
   void init_flow()
   {
     
-    bool ok = motor_comm_init();
+    bool ok = false;
+    ok = motor_comm_init();
 
     
     std_msgs::msg::String st;
@@ -69,6 +75,34 @@ private:
 
   bool motor_comm_init()
   {
+    // this_thread::sleep_for(10s);
+    // ecx_contextt ecx_context;
+    // if(ecx_init(&ecx_context, "eno1"))
+    // {
+    //   int slaves=ecx_config_init(&ecx_context);
+    //   cout<<"Slaves found: "<< slaves<<endl;
+    //   ecx_configdc(&ecx_context);
+    // }
+
+    ecx_contextt ctx;
+    int ok = ecx_init(&ctx, "enx00e04c1c1328");
+    //eno1 is not suitable, slaves=-1
+    std::cout << "ecx_init: " << ok << "\n";
+    // if (!ok) return 1;
+
+    int slaves = ecx_config_init(&ctx);
+    std::cout << "ecx_config_init: " << slaves << "\n";
+    std::cout << "ctx.slavecount: " << ctx.slavecount << "\n";
+
+    // if (slaves <= 0) {
+    //   string str;
+    //   str=ecx_elist2string(&ctx);
+    //   char es[4096];
+    //   *es=ecx_elist2string(&ctx);
+    //   std::cout << "SOEM error list:\n" << str << "\n";
+    // }
+
+
     return true;
   }
 

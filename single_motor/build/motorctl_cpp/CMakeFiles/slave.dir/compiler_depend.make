@@ -754,14 +754,42 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/local/include/soem/ec_base.h \
+  /usr/local/include/soem/ec_coe.h \
+  /usr/local/include/soem/ec_config.h \
+  /usr/local/include/soem/ec_dc.h \
+  /usr/local/include/soem/ec_eoe.h \
+  /usr/local/include/soem/ec_foe.h \
+  /usr/local/include/soem/ec_main.h \
+  /usr/local/include/soem/ec_options.h \
+  /usr/local/include/soem/ec_print.h \
+  /usr/local/include/soem/ec_soe.h \
+  /usr/local/include/soem/ec_type.h \
+  /usr/local/include/soem/nicdrv.h \
+  /usr/local/include/soem/osal.h \
+  /usr/local/include/soem/osal_defs.h \
+  /usr/local/include/soem/soem.h
 
+
+/usr/local/include/soem/soem.h:
+
+/usr/local/include/soem/osal.h:
+
+/usr/local/include/soem/ec_type.h:
+
+/usr/local/include/soem/ec_eoe.h:
+
+/usr/local/include/soem/ec_coe.h:
+
+/usr/local/include/soem/ec_base.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -770,6 +798,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1359,6 +1389,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
+/usr/local/include/soem/ec_foe.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
@@ -1405,6 +1437,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
+/usr/local/include/soem/nicdrv.h:
+
 /opt/ros/jazzy/include/rcl/rcl/event.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
@@ -1428,6 +1462,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /opt/ros/jazzy/include/rcl/rcl/types.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
+
+/usr/local/include/soem/osal_defs.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
 
@@ -1596,6 +1632,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/local/include/soem/ec_dc.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
@@ -1777,6 +1815,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
+/usr/local/include/soem/ec_print.h:
+
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
@@ -1816,6 +1856,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /usr/include/c++/13/bits/sstream.tcc:
 
 /opt/ros/jazzy/include/rcutils/rcutils/qsort.h:
+
+/usr/local/include/soem/ec_soe.h:
 
 /usr/include/c++/13/bits/char_traits.h:
 
@@ -1883,6 +1925,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h:
 
+/usr/local/include/soem/ec_options.h:
+
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h:
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/string.hpp:
@@ -1892,6 +1936,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
 /usr/include/c++/13/bit:
+
+/usr/local/include/soem/ec_main.h:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
 
@@ -2214,6 +2260,8 @@ CMakeFiles/slave.dir/src/slave.cpp.o: /root/ws/src/motorctl_cpp/src/slave.cpp \
 /usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/local/include/soem/ec_config.h:
 
 /usr/include/c++/13/bits/std_mutex.h:
 

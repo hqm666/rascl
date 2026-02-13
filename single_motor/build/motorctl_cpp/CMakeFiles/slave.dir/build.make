@@ -99,6 +99,7 @@ slave: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 slave: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 slave: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 slave: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+slave: /usr/local/lib/libsoem.so
 slave: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 slave: /opt/ros/jazzy/lib/librcl.so
 slave: /opt/ros/jazzy/lib/librmw_implementation.so

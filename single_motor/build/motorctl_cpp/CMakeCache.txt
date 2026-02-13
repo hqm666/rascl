@@ -271,6 +271,9 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //Name of the computer/site where compile is being run
 SITE:STRING=IRS-RASCL02
 
+//Path to a library.
+SOEM_LIB:FILEPATH=/usr/local/lib/libsoem.so
+
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
