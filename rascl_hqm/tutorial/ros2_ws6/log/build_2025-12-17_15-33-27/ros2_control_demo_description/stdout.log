@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_description
+-- Install configuration: ""
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/rrbot/urdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/rrbot/rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/urdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/urdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r3bot/urdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/srdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/urdf
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/urdf/inc
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/environment/path.sh
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/environment/path.dsv
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/local_setup.bash
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/local_setup.sh
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/local_setup.zsh
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/local_setup.dsv
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/package.dsv
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/packages/ros2_control_demo_description
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+-- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_description/package.xml

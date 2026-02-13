@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="10" time="6.136" timestamp="2025-12-10T15:25:39.491389" hostname="IRS-RASCL02"><testcase classname="launch_testing_examples.launch_testing_examples.check_msgs_launch_test" name="launch_testing_examples.check_msgs_launch_test" time="0.027"><failure message="launch_testing_examples.check_msgs_launch_test.TestFixture.test_check_if_msgs_published failed">
+===========================================================
+FAIL: launch_testing_examples.check_msgs_launch_test.TestFixture.test_check_if_msgs_published
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+</failure></testcase><testcase classname="launch_testing_examples.launch_testing_examples.check_multiple_nodes_launch_test" name="launch_testing_examples.check_multiple_nodes_launch_test" time="0.005"><failure message="launch_testing_examples.check_multiple_nodes_launch_test.CheckMultipleNodesLaunched.test_node_does_not_exist failed&#10;launch_testing_examples.check_multiple_nodes_launch_test.CheckMultipleNodesLaunched.test_nodes_successful failed">
+===========================================================
+FAIL: launch_testing_examples.check_multiple_nodes_launch_test.CheckMultipleNodesLaunched.test_node_does_not_exist
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+
+
+===========================================================
+FAIL: launch_testing_examples.check_multiple_nodes_launch_test.CheckMultipleNodesLaunched.test_nodes_successful
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+</failure></testcase><testcase classname="launch_testing_examples.launch_testing_examples.check_node_launch_test" name="launch_testing_examples.check_node_launch_test" time="5.012"><failure message="launch_testing_examples.check_node_launch_test.TestFixture.test_node_start failed">
+===========================================================
+FAIL: launch_testing_examples.check_node_launch_test.TestFixture.test_node_start
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+</failure></testcase><testcase classname="launch_testing_examples.launch_testing_examples.hello_world_launch_test" name="launch_testing_examples.hello_world_launch_test" time="0.005" /><testcase classname="launch_testing_examples.launch_testing_examples.record_rosbag_launch_test" name="launch_testing_examples.record_rosbag_launch_test" time="0.004"><failure message="launch_testing_examples.record_rosbag_launch_test.DelayShutdown.test_delay failed&#10;launch_testing_examples.record_rosbag_launch_test.TestFixtureAfterShutdown.test_rosbag_record failed">
+===========================================================
+FAIL: launch_testing_examples.record_rosbag_launch_test.DelayShutdown.test_delay
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+
+
+===========================================================
+FAIL: launch_testing_examples.record_rosbag_launch_test.TestFixtureAfterShutdown.test_rosbag_record
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+</failure></testcase><testcase classname="launch_testing_examples.launch_testing_examples.set_param_launch_test" name="launch_testing_examples.set_param_launch_test" time="0.003"><failure message="launch_testing_examples.set_param_launch_test.TestFixture.test_set_parameter failed">
+===========================================================
+FAIL: launch_testing_examples.set_param_launch_test.TestFixture.test_set_parameter
+-----------------------------------------------------------
+Exception: Launch stopped before the active tests finished.
+</failure></testcase><testcase classname="launch_testing_examples.test.test_copyright" name="test_copyright" time="0.416" /><testcase classname="launch_testing_examples.test.test_flake8" name="test_flake8" time="0.137" /><testcase classname="launch_testing_examples.test.test_pep257" name="test_pep257" time="0.032" /><testcase classname="launch_testing_examples.test.test_xmllint" name="test_xmllint" time="0.227" /></testsuite></testsuites>

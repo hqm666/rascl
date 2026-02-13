@@ -1,0 +1,6 @@
+Invoking command in '/root/ws/ros2_ws3/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/ros2_ws3/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/root/ws/ros2_ws3/install/cpp_srvcli
+Invoked command in '/root/ws/ros2_ws3/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/ros2_ws3/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/root/ws/ros2_ws3/install/cpp_srvcli
+Invoking command in '/root/ws/ros2_ws3/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/ros2_ws3/build/cpp_srvcli -- -j6 -l6
+Invoked command in '/root/ws/ros2_ws3/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/ros2_ws3/build/cpp_srvcli -- -j6 -l6
+Invoking command in '/root/ws/ros2_ws3/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/ros2_ws3/build/cpp_srvcli
+Invoked command in '/root/ws/ros2_ws3/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/ros2_ws3/build/cpp_srvcli

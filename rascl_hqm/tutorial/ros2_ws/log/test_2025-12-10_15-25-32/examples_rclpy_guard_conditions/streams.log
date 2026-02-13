@@ -1,0 +1,18 @@
+[0.486s] Invoking command in '/root/ws/tutorial/ros2_ws/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions:/root/ws/tutorial/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.854s] [1m============================= test session starts ==============================[0m
+[0.854s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.858s] cachedir: /root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache
+[0.858s] rootdir: /root/ws/tutorial/ros2_ws/src/examples/rclpy
+[0.858s] configfile: pytest.ini
+[0.858s] plugins: ament-flake8-0.17.3, launch-testing-3.4.7, ament-copyright-0.17.3, launch-testing-ros-0.26.9, ament-xmllint-0.17.3, ament-lint-0.17.3, ament-pep257-0.17.3, typeguard-4.1.5, colcon-core-0.20.1
+[0.932s] [1mcollecting ... [0m[1m
+[0.932s] collected 4 items                                                              [0m
+[0.932s] 
+[1.203s] test/test_copyright.py [32m.[0m[32m                                                 [ 25%][0m
+[1.367s] test/test_flake8.py [32m.[0m[32m                                                    [ 50%][0m
+[1.401s] test/test_pep257.py [32m.[0m[32m                                                    [ 75%][0m
+[1.625s] test/test_xmllint.py [32m.[0m[32m                                                   [100%][0m
+[1.625s] 
+[1.625s] - generated xml file: /root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml -
+[1.626s] [32m============================== [32m[1m4 passed[0m[32m in 0.77s[0m[32m ===============================[0m
+[1.705s] Invoked command in '/root/ws/tutorial/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/root/ws/tutorial/ros2_ws/build/examples_rclpy_guard_conditions:/root/ws/tutorial/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

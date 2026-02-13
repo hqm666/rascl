@@ -1,0 +1,7 @@
+[01m[K/root/ws/tutorial/ros2_ws6/src/ros2_control_demos/example_14/hardware/rrbot_actuator_without_feedback.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_demo_example_14::RRBotActuatorWithoutFeedback::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/ws/tutorial/ros2_ws6/src/ros2_control_demos/example_14/hardware/rrbot_actuator_without_feedback.cpp:114:44:[m[K [01;35m[Kwarning: [m[Kuse of old-style cast to ‘[01m[Kstruct sockaddr*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wold-style-cast-Wold-style-cast]8;;[m[K]
+  114 |     if (connect(sock_, (struct sockaddr *)&[01;35m[Kaddress_[m[K, sizeof(address_)) == 0)
+      |                                            [01;35m[K^~~~~~~~[m[K
+      |                        [31m[K-[m[K
+      |                        [32m[Kreinterpret_cast<[m[K [31m[K-[m[K
+      |                                          [32m[K> ([m[K       [32m[K)[m[K

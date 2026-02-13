@@ -1,0 +1,80 @@
+[0.022s] Invoking command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ros2_ws6/src/ros2_control_demos/example_4 -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ros2_ws6/install
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.129s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.287s] -- Found ros2_control_cmake: 0.3.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.287s] -- Compiler warnings enabled for GNU
+[0.288s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.293s] -- Found controller_manager: 4.39.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.783s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.819s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.062s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.070s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.213s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.240s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.313s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.824s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.846s] -- Found launch_testing_ament_cmake: 3.4.7 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[2.852s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.027s] -- Found PythonExtra: /usr/bin/python3  
+[3.148s] -- Configuring done (3.1s)
+[3.189s] -- Generating done (0.0s)
+[3.195s] -- Build files have been written to: /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4
+[3.221s] Invoked command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ros2_ws6/src/ros2_control_demos/example_4 -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ros2_ws6/install
+[3.221s] Invoking command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4 -- -j6 -l6
+[3.306s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_4.dir/hardware/rrbot_system_with_sensor.cpp.o[0m
+[11.755s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_4.so[0m
+[12.196s] [100%] Built target ros2_control_demo_example_4
+[12.217s] Invoked command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4 -- -j6 -l6
+[12.218s] Invoking command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4
+[12.251s] -- Install configuration: ""
+[12.251s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/ros2_control_demo_example_4.xml
+[12.252s] -- Installing: /root/ws/tutorial/ros2_ws6/install/include/ros2_control_demo_example_4
+[12.252s] -- Installing: /root/ws/tutorial/ros2_ws6/install/include/ros2_control_demo_example_4/ros2_control_demo_example_4
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/include/ros2_control_demo_example_4/ros2_control_demo_example_4/rrbot_system_with_sensor.hpp
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/launch
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/launch/view_robot.launch.py
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/ros2_control
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/urdf
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/urdf/rrbot_system_with_sensor.urdf.xacro
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/rviz
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/rviz/rrbot.rviz
+[12.253s] -- Up-to-date: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/launch
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/launch/rrbot_system_with_sensor.launch.py
+[12.253s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/launch/test_forward_position_controller.launch.py
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/config
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/config/rrbot_with_sensor_controllers.yaml
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/config/rrbot_forward_position_publisher.yaml
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/lib/libros2_control_demo_example_4.so
+[12.254s] -- Set non-toolchain portion of runtime path of "/root/ws/tutorial/ros2_ws6/install/lib/libros2_control_demo_example_4.so" to ""
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/library_path.sh
+[12.254s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/library_path.dsv
+[12.255s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_4
+[12.256s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_4
+[12.256s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/ament_prefix_path.sh
+[12.256s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/ament_prefix_path.dsv
+[12.256s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/path.sh
+[12.258s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/environment/path.dsv
+[12.258s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/local_setup.bash
+[12.258s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/local_setup.sh
+[12.258s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/local_setup.zsh
+[12.258s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/local_setup.dsv
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/package.dsv
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/packages/ros2_control_demo_example_4
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_4
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/export_ros2_control_demo_example_4Export-noconfig.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/ament_cmake_export_targets-extras.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/cmake/ros2_control_demo_example_4Config-version.cmake
+[12.259s] -- Installing: /root/ws/tutorial/ros2_ws6/install/share/ros2_control_demo_example_4/package.xml
+[12.263s] Invoked command in '/root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4' returned '0': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ws/tutorial/ros2_ws6/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/tutorial/ros2_ws6/build/ros2_control_demo_example_4

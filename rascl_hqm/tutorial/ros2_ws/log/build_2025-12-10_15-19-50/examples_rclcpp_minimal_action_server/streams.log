@@ -1,0 +1,76 @@
+[0.019s] Invoking command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.096s] -- The C compiler identification is GNU 13.3.0
+[0.166s] -- The CXX compiler identification is GNU 13.3.0
+[0.189s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.739s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.787s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.841s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.861s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.100s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.204s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.224s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.347s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.368s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.521s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.522s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.522s] -- Configured cppcheck include dirs: 
+[1.522s] -- Configured cppcheck exclude dirs and/or files: 
+[1.524s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.524s] -- Configured cpplint exclude dirs and/or files: 
+[1.524s] -- Added test 'lint_cmake' to check CMake code style
+[1.526s] -- Added test 'uncrustify' to check C / C++ code style
+[1.526s] -- Configured uncrustify additional arguments: 
+[1.526s] -- Added test 'xmllint' to check XML markup files
+[1.528s] -- Configuring done (1.5s)
+[1.553s] -- Generating done (0.0s)
+[1.563s] -- Build files have been written to: /root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server
+[1.577s] Invoked command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.577s] Invoking command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[1.716s] [ 16%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[1.738s] [ 33%] [32mBuilding CXX object CMakeFiles/action_server_single_goal.dir/single_goal.cpp.o[0m
+[1.757s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[13.637s] [ 66%] [32m[1mLinking CXX executable action_server_single_goal[0m
+[14.209s] [ 66%] Built target action_server_single_goal
+[14.657s] [ 83%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[15.065s] [ 83%] Built target action_server_member_functions
+[17.897s] [100%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[18.133s] [100%] Built target action_server_not_composable
+[18.156s] Invoked command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[18.156s] Invoking command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server
+[18.327s] -- Install configuration: ""
+[18.327s] -- Execute custom install script
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_single_goal
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[18.327s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[18.328s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[18.328s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[18.328s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[18.328s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[18.328s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[18.348s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[18.379s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[18.400s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[18.448s] -- Symlinking: /root/ws/tutorial/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[18.486s] Invoked command in '/root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ws/tutorial/ros2_ws/build/examples_rclcpp_minimal_action_server

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ws/tutorial/ros2_ws/build/examples_rclcpp_cbg_executor/ping" "/root/ws/tutorial/ros2_ws/build/examples_rclcpp_cbg_executor/pong" "/root/ws/tutorial/ros2_ws/build/examples_rclcpp_cbg_executor/ping_pong" "TARGETS" "ping" "pong" "ping_pong" "DESTINATION" "lib/examples_rclcpp_cbg_executor")

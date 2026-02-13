@@ -1,0 +1,18 @@
+[0.267s] Invoking command in '/root/ws/tutorial/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws/install/examples_rclpy_minimal_subscriber:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ws/tutorial/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.648s] [1m============================= test session starts ==============================[0m
+[0.648s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.652s] cachedir: /root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache
+[0.652s] rootdir: /root/ws/tutorial/ros2_ws/src/examples/rclpy
+[0.652s] configfile: pytest.ini
+[0.652s] plugins: ament-flake8-0.17.3, launch-testing-3.4.7, ament-copyright-0.17.3, launch-testing-ros-0.26.9, ament-xmllint-0.17.3, ament-lint-0.17.3, ament-pep257-0.17.3, typeguard-4.1.5, colcon-core-0.20.1
+[0.729s] [1mcollecting ... [0m[1m
+[0.729s] collected 4 items                                                              [0m
+[0.730s] 
+[1.083s] test/test_copyright.py [32m.[0m[32m                                                 [ 25%][0m
+[1.205s] test/test_flake8.py [32m.[0m[32m                                                    [ 50%][0m
+[1.225s] test/test_pep257.py [32m.[0m[32m                                                    [ 75%][0m
+[1.417s] test/test_xmllint.py [32m.[0m[32m                                                   [100%][0m
+[1.417s] 
+[1.417s] - generated xml file: /root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml -
+[1.417s] [32m============================== [32m[1m4 passed[0m[32m in 0.77s[0m[32m ===============================[0m
+[1.483s] Invoked command in '/root/ws/tutorial/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': AMENT_PREFIX_PATH=/root/ws/tutorial/ros2_ws/install/examples_rclpy_minimal_subscriber:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/root/ws/tutorial/ros2_ws/build/examples_rclpy_minimal_subscriber:/root/ws/tutorial/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
