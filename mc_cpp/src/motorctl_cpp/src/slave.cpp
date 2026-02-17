@@ -86,21 +86,39 @@ private:
 
     ecx_contextt ctx;
     int ok = ecx_init(&ctx, "enx00e04c1c1328");
+    // xxx1328 for station 1
     //eno1 is not suitable, slaves=-1
     std::cout << "ecx_init: " << ok << "\n";
     // if (!ok) return 1;
 
     int slaves = ecx_config_init(&ctx);
-    std::cout << "ecx_config_init: " << slaves << "\n";
-    std::cout << "ctx.slavecount: " << ctx.slavecount << "\n";
+    if (slaves<0)
+    {
+      RCLCPP_INFO(this->get_logger(), "Wrong ecx_config_int()");
+    }
+    else if(slaves==0)
+    {
+      RCLCPP_INFO(this->get_logger(), "No devices are detected.");
+    }
+    else
+    {
+      std::cout << "ecx_config_init: " << slaves << "\n";
+      std::cout << "ctx.slavecount: " << ctx.slavecount << "\n";
+      ecx_config_map_group(&ctx, IOmap, 0);
 
-    // if (slaves <= 0) {
-    //   string str;
-    //   str=ecx_elist2string(&ctx);
-    //   char es[4096];
-    //   *es=ecx_elist2string(&ctx);
-    //   std::cout << "SOEM error list:\n" << str << "\n";
-    // }
+      ecx_configdc(&ctx);
+
+      /* wait for all slaves to reach SAFE_OP state */
+      ecx_statecheck(&ctx, 0, EC_STATE_SAFE_OP, EC_TIMEOUTSTATE * 4);
+
+      // sets actual slave state (if slave number = 0, then write to all slaves)
+      ecx_writestate(&ctx, 1);
+
+       RCLCPP_INFO(this->get_logger(), "(on_configure) Init done.");
+
+    } 
+    
+
 
 
     return true;

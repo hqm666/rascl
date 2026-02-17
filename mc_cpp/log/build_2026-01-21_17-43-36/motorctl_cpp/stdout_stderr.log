@@ -1,8 +1,0 @@
-[ 50%] Built target master
-[ 75%] [32mBuilding CXX object CMakeFiles/slave.dir/src/slave.cpp.o[0m
-[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:76:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
-   76 |   [01;31m[K{[m[K
-      |   [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/slave.dir/build.make:76: CMakeFiles/slave.dir/src/slave.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

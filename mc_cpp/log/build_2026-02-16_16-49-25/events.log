@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (motorctl_cpp) JobQueued: {'identifier': 'motorctl_cpp', 'dependencies': OrderedDict()}
+[0.000841] (motorctl_cpp) JobStarted: {'identifier': 'motorctl_cpp'}
+[0.011657] (motorctl_cpp) JobProgress: {'identifier': 'motorctl_cpp', 'progress': 'cmake'}
+[0.012185] (motorctl_cpp) Command: {'cmd': ['/usr/bin/cmake', '/root/ws/src/motorctl_cpp', '-DCMAKE_INSTALL_PREFIX=/root/ws/install/motorctl_cpp'], 'cwd': '/root/ws/build/motorctl_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'IRS-RASCL02', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib:', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ws/build/motorctl_cpp', 'LC_ALL': 'C.UTF-8', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.077511] (motorctl_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099761] (-) TimerEvent: {}
+[0.145721] (motorctl_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.164312] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199884] (-) TimerEvent: {}
+[0.262133] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.273462] (motorctl_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.273799] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.274235] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.284321] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300010] (-) TimerEvent: {}
+[0.397527] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400077] (-) TimerEvent: {}
+[0.409334] (motorctl_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.409685] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.410254] (motorctl_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.414026] (motorctl_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500202] (-) TimerEvent: {}
+[0.581351] (motorctl_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600313] (-) TimerEvent: {}
+[0.700562] (-) TimerEvent: {}
+[0.708678] (motorctl_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.762476] (motorctl_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.781085] (motorctl_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.800682] (-) TimerEvent: {}
+[0.802430] (motorctl_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.827111] (motorctl_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900802] (-) TimerEvent: {}
+[0.930233] (motorctl_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.934013] (motorctl_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000922] (-) TimerEvent: {}
+[1.025742] (motorctl_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.044902] (motorctl_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.071509] (motorctl_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101046] (-) TimerEvent: {}
+[1.168918] (motorctl_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.190867] (motorctl_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.201132] (-) TimerEvent: {}
+[1.301384] (-) TimerEvent: {}
+[1.328504] (motorctl_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.328740] (motorctl_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.328857] (motorctl_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.329613] (motorctl_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.330962] (motorctl_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.331089] (motorctl_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.331683] (motorctl_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.333387] (motorctl_cpp) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.350338] (motorctl_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.356037] (motorctl_cpp) StdoutLine: {'line': b'-- Build files have been written to: /root/ws/build/motorctl_cpp\n'}
+[1.365230] (motorctl_cpp) CommandEnded: {'returncode': 0}
+[1.366304] (motorctl_cpp) JobProgress: {'identifier': 'motorctl_cpp', 'progress': 'build'}
+[1.366640] (motorctl_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ws/build/motorctl_cpp', '--', '-j6', '-l6'], 'cwd': '/root/ws/build/motorctl_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'IRS-RASCL02', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib:', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ws/build/motorctl_cpp', 'LC_ALL': 'C.UTF-8', 'MESA_GL_VERSION_OVERRIDE': '3.3', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.401442] (-) TimerEvent: {}
+[1.426031] (motorctl_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slave.dir/src/slave.cpp.o\x1b[0m\n'}
+[1.426207] (motorctl_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master.dir/src/master.cpp.o\x1b[0m\n'}
+[1.501531] (-) TimerEvent: {}
+[1.601786] (-) TimerEvent: {}
+[1.702039] (-) TimerEvent: {}
+[1.802290] (-) TimerEvent: {}
+[1.902520] (-) TimerEvent: {}
+[2.002745] (-) TimerEvent: {}
+[2.103010] (-) TimerEvent: {}
+[2.203275] (-) TimerEvent: {}
+[2.303567] (-) TimerEvent: {}
+[2.403887] (-) TimerEvent: {}
+[2.504249] (-) TimerEvent: {}
+[2.604556] (-) TimerEvent: {}
+[2.704948] (-) TimerEvent: {}
+[2.805250] (-) TimerEvent: {}
+[2.905571] (-) TimerEvent: {}
+[3.005868] (-) TimerEvent: {}
+[3.106177] (-) TimerEvent: {}
+[3.206436] (-) TimerEvent: {}
+[3.306686] (-) TimerEvent: {}
+[3.406945] (-) TimerEvent: {}
+[3.507211] (-) TimerEvent: {}
+[3.607478] (-) TimerEvent: {}
+[3.707756] (-) TimerEvent: {}
+[3.808029] (-) TimerEvent: {}
+[3.908299] (-) TimerEvent: {}
+[3.929167] (motorctl_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ws/src/motorctl_cpp/src/slave.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Slave::\x1b[01;32m\x1b[Kmotor_comm_init\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.929388] (motorctl_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ws/src/motorctl_cpp/src/slave.cpp:107:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIOmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.929498] (motorctl_cpp) StderrLine: {'line': b'  107 |       ecx_config_map_group(&ctx, \x1b[01;31m\x1b[KIOmap\x1b[m\x1b[K, 0);\n'}
+[3.929576] (motorctl_cpp) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.930235] (motorctl_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ws/src/motorctl_cpp/src/slave.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Slave::\x1b[01;32m\x1b[Khandle_command\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.930387] (motorctl_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ws/src/motorctl_cpp/src/slave.cpp:127:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcmd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.930513] (motorctl_cpp) StderrLine: {'line': b'  127 |   void handle_command(\x1b[01;35m\x1b[Kconst std::string & cmd\x1b[m\x1b[K)\n'}
+[3.930590] (motorctl_cpp) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.008454] (-) TimerEvent: {}
+[4.108718] (-) TimerEvent: {}
+[4.208997] (-) TimerEvent: {}
+[4.309262] (-) TimerEvent: {}
+[4.409543] (-) TimerEvent: {}
+[4.509816] (-) TimerEvent: {}
+[4.610087] (-) TimerEvent: {}
+[4.710365] (-) TimerEvent: {}
+[4.810591] (-) TimerEvent: {}
+[4.910872] (-) TimerEvent: {}
+[5.011136] (-) TimerEvent: {}
+[5.111428] (-) TimerEvent: {}
+[5.211681] (-) TimerEvent: {}
+[5.311941] (-) TimerEvent: {}
+[5.412202] (-) TimerEvent: {}
+[5.512486] (-) TimerEvent: {}
+[5.612770] (-) TimerEvent: {}
+[5.713043] (-) TimerEvent: {}
+[5.813310] (-) TimerEvent: {}
+[5.913619] (-) TimerEvent: {}
+[6.013898] (-) TimerEvent: {}
+[6.114168] (-) TimerEvent: {}
+[6.174903] (motorctl_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/slave.dir/build.make:76: CMakeFiles/slave.dir/src/slave.cpp.o] Error 1\n'}
+[6.175148] (motorctl_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2\n'}
+[6.175262] (motorctl_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.214296] (-) TimerEvent: {}
+[6.314573] (-) TimerEvent: {}
+[6.414836] (-) TimerEvent: {}
+[6.515102] (-) TimerEvent: {}
+[6.615427] (-) TimerEvent: {}
+[6.715745] (-) TimerEvent: {}
+[6.815997] (-) TimerEvent: {}
+[6.916244] (-) TimerEvent: {}
+[7.016525] (-) TimerEvent: {}
+[7.116768] (-) TimerEvent: {}
+[7.217012] (-) TimerEvent: {}
+[7.317258] (-) TimerEvent: {}
+[7.417550] (-) TimerEvent: {}
+[7.517798] (-) TimerEvent: {}
+[7.618040] (-) TimerEvent: {}
+[7.718285] (-) TimerEvent: {}
+[7.818587] (-) TimerEvent: {}
+[7.918834] (-) TimerEvent: {}
+[8.019082] (-) TimerEvent: {}
+[8.119325] (-) TimerEvent: {}
+[8.219574] (-) TimerEvent: {}
+[8.319829] (-) TimerEvent: {}
+[8.420074] (-) TimerEvent: {}
+[8.520324] (-) TimerEvent: {}
+[8.620578] (-) TimerEvent: {}
+[8.720824] (-) TimerEvent: {}
+[8.821074] (-) TimerEvent: {}
+[8.921320] (-) TimerEvent: {}
+[9.021575] (-) TimerEvent: {}
+[9.121820] (-) TimerEvent: {}
+[9.222055] (-) TimerEvent: {}
+[9.322300] (-) TimerEvent: {}
+[9.422564] (-) TimerEvent: {}
+[9.522816] (-) TimerEvent: {}
+[9.623097] (-) TimerEvent: {}
+[9.689580] (motorctl_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable master\x1b[0m\n'}
+[9.723222] (-) TimerEvent: {}
+[9.823442] (-) TimerEvent: {}
+[9.923712] (-) TimerEvent: {}
+[9.998470] (motorctl_cpp) StdoutLine: {'line': b'[ 75%] Built target master\n'}
+[9.999714] (motorctl_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.001807] (motorctl_cpp) CommandEnded: {'returncode': 2}
+[10.012784] (motorctl_cpp) JobEnded: {'identifier': 'motorctl_cpp', 'rc': 2}
+[10.023324] (-) EventReactorShutdown: {}

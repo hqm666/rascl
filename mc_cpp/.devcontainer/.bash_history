@@ -191,3 +191,10 @@ ros2 run motorctl_cpp slave
 exit
 chmod -R 777 .
 exit
+ls
+rosclean
+colcon build
+exit
+rosclean
+colcon build
+exit

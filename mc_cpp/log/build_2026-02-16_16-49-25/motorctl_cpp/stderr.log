@@ -1,0 +1,12 @@
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In member function ‘[01m[Kbool Slave::[01;32m[Kmotor_comm_init[m[K()[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:107:34:[m[K [01;31m[Kerror: [m[K‘[01m[KIOmap[m[K’ was not declared in this scope
+  107 |       ecx_config_map_group(&ctx, [01;31m[KIOmap[m[K, 0);
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:[m[K In member function ‘[01m[Kvoid Slave::[01;32m[Khandle_command[m[K(const std::string&)[m[K’:
+[01m[K/root/ws/src/motorctl_cpp/src/slave.cpp:127:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 |   void handle_command([01;35m[Kconst std::string & cmd[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/slave.dir/build.make:76: CMakeFiles/slave.dir/src/slave.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/slave.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
