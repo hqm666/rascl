@@ -198,3 +198,17 @@ exit
 rosclean
 colcon build
 exit
+rosclean
+colcon build
+rossetup
+ros2 run motorctl_cpp slave
+colcon build
+ros2 run motorctl_cpp slave
+colcon build
+rossetup
+ros2 run motorctl_cpp slave
+rosclean
+colcon build
+ros2 run motorctl_cpp slave
+colcon build
+ros2 run motorctl_cpp slave
