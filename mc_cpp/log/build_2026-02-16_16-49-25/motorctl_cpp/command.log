@@ -1,4 +1,0 @@
-Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/src/motorctl_cpp -DCMAKE_INSTALL_PREFIX=/root/ws/install/motorctl_cpp
-Invoked command in '/root/ws/build/motorctl_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/src/motorctl_cpp -DCMAKE_INSTALL_PREFIX=/root/ws/install/motorctl_cpp
-Invoking command in '/root/ws/build/motorctl_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6
-Invoked command in '/root/ws/build/motorctl_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ws/build/motorctl_cpp -- -j6 -l6

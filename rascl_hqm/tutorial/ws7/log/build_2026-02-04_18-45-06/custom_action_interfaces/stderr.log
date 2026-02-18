@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:16:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "<buildtool_depend>rosidl_default_generators</buildtool_depend>".
-
-[0m

@@ -1,8 +1,0 @@
-[0.016s] Invoking command in '/root/ws/tutorial/ws7/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ws7/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ws7/install/custom_action_interfaces
-[0.061s] [31mCMake Error at CMakeLists.txt:16:
-[0.061s]   Parse error.  Expected a command name, got unquoted argument with text
-[0.061s]   "<buildtool_depend>rosidl_default_generators</buildtool_depend>".
-[0.061s] 
-[0.061s] [0m
-[0.061s] -- Configuring incomplete, errors occurred!
-[0.264s] Invoked command in '/root/ws/tutorial/ws7/build/custom_action_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/tutorial/ws7/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/root/ws/tutorial/ws7/install/custom_action_interfaces

@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_action_interfaces",
-  "non_idl_tuples": [
-    "/root/ws/tutorial/ws7/src/custom_action_interfaces:action/Fibonacci.action"
-  ]
-}

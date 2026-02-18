@@ -1,9 +1,0 @@
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/uninstall.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/ros2_control_demos_uninstall.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/test.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/edit_cache.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/rebuild_cache.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/list_install_components.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/install.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/install/local.dir
-/root/ws/tutorial/ros2_ws6/build/ros2_control_demos/CMakeFiles/install/strip.dir

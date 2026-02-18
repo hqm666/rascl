@@ -1,2 +1,0 @@
-Invoking command in '/root/ws/ros2_ws4/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/ros2_ws4/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/root/ws/ros2_ws4/install/more_interfaces
-Invoked command in '/root/ws/ros2_ws4/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ws/ros2_ws4/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/root/ws/ros2_ws4/install/more_interfaces
