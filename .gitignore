@@ -1,0 +1,9 @@
+# Ignore ROS2 build folders
+build/
+install/
+log/
+
+# Also ignore these anywhere in subfolders
+**/build/
+**/install/
+**/log/
