@@ -1,0 +1,5 @@
+transformation constants
+- shoulder joint (round, not restrained, offset=-pi/2)
+- upperarm joint (homing -1.57, 0, 1.57, offset=4.71238898)
+- lowerarm joint (homing - - - )
+- gripper joint (to be determined)

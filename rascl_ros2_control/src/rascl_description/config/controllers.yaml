@@ -1,0 +1,35 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+
+    joint_state_broadcaster:
+      type: "joint_state_broadcaster/JointStateBroadcaster"
+
+    joint_trajectory_controller:
+      type: "joint_trajectory_controller/JointTrajectoryController"
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - shoulder_joint
+      - upperarm_joint
+      - lowerarm_joint
+      - gripper_joint
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      #- velocity
+
+    action_monitor_rate: 20.0
+
+    allow_partial_joints_goal: false
+    interpolate_from_desired_state: true
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      # goal_time: 0.0
+      # joint1:
+        # trajectory: 0.05
+        # goal: 0.03

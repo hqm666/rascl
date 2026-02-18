@@ -1,0 +1,9 @@
+<library path="rascl_hardware_interface">
+  <class name="rascl_hardware_interface/RASCL_HI"
+         type="rascl_hardware_interface::RASCL_HI"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ros2_control hardware interface.
+    </description>
+  </class>
+</library>
